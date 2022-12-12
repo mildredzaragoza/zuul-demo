@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    guests-service:
+      path: /guests
+      url: http://localhost:8081
+    users-service:
+      path: /users
+      url: http://localhost:8082
